@@ -26,6 +26,7 @@ Trois fichiers *.vue* ont été créés :
 ## Blocages
 - Ré-apprendre à utiliser Vue.js et Node.js
 - Méthodes *async* sur le serveur Node.js
+- Travailler sous Windows
 
 ## Amélioration futures
 - Déployer le projet sur un PAAS
