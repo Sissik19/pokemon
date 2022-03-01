@@ -1,5 +1,4 @@
 # Application Pokemon
-comment installer le projet, détail de l'api, élément spécifique au projet, blocage éventuel, TODO de ce qu'il serait bien de faire pour améliorer le projet...
 
 ## Installation/Explication du projet
 Le projet se découpe en deux parties:
