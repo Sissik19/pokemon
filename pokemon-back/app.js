@@ -49,9 +49,7 @@ db.run(sql_create_pokemon_detail, err => {
                 if (err) {
                   return console.error(err.message + '\nRequête : ' + sql_insert);
                 }
-                console.log("Insertion dans la table 'PokemonDetail'");
               });
-
             } else {
               console.log("Erreur lors de l'appel à PokeAPI avec l'url : " + poke.url + "");
             }
@@ -74,10 +72,6 @@ app.use((req, res, next) => {
   res.append('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
   res.append('Access-Control-Allow-Headers', 'Content-Type');
   next();
-})
-
-app.get('/', (req, res) => {
-  res.send("Bienvenue");
 })
 
 app.listen(port, () => {
